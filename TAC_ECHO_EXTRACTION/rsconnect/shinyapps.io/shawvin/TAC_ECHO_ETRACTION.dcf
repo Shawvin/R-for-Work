@@ -1,0 +1,12 @@
+name: TAC_ECHO_ETRACTION
+title: TAC_ECHO_ETRACTION
+username:
+account: shawvin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1812442
+bundleId: 2801006
+url: https://shawvin.shinyapps.io/TAC_ECHO_ETRACTION/
+when: 1581691106.8756
+asMultiple: FALSE
+asStatic: FALSE
