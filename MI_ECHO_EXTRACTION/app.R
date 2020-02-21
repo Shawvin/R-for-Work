@@ -73,7 +73,7 @@ server <- function(input, output) {
        
         # tally up the parameter name
         data1$measurement<-with(data1,paste(sapply(X2,function(x) strsplit(x,"-")[[1]][1]),X3,sep="-"))
-        num<-1:4
+        num<-1:10
         data2$measurement<-paste(data2$X3,unlist(lapply(reptimes2, function(x) num[0:x])),sep = "") 
       
         # combine subsets
@@ -87,10 +87,11 @@ server <- function(input, output) {
         data3<-data1[3:6] %>% spread(measurement,value)
         names(data3)<-str_remove_all(names(data3),"[ ;-]")
         
-        index<-data3$Volume1>data3$Volume2
-        temp<-data3[index,"Volume1"]
+        index<-which(data3$Volume1>data3$Volume2)
+        if(!is_empty(index))
+        {temp<-data3[index,"Volume1"]
         data3[index,"Volume1"]<-data3[index,"Volume2"]
-        data3[index,"Volume2"]<-temp
+        data3[index,"Volume2"]<-temp}
         
         data3
         
