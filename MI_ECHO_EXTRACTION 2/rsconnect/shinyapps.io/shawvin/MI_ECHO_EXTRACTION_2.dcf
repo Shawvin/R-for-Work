@@ -1,0 +1,12 @@
+name: MI_ECHO_EXTRACTION_2
+title: MI_ECHO_EXTRACTION_2
+username:
+account: shawvin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1962130
+bundleId: 2894442
+url: https://shawvin.shinyapps.io/MI_ECHO_EXTRACTION_2/
+when: 1584543552.17719
+asMultiple: FALSE
+asStatic: FALSE

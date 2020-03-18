@@ -1,0 +1,12 @@
+name: TAC_ECHO_EXTRACTION_2
+title: TAC_ECHO_EXTRACTION_2
+username:
+account: shawvin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1962156
+bundleId: 2894463
+url: https://shawvin.shinyapps.io/TAC_ECHO_EXTRACTION_2/
+when: 1584543911.76016
+asMultiple: FALSE
+asStatic: FALSE
