@@ -99,7 +99,7 @@ server <- function(input, output) {
         
         if (!is_empty(data4))
         {s=c("ID","labels","BHeartRate","BVolumes","BVolumed","BStrokeVolume","BEjectionFraction",
-             "BFractionalShortening","BCardiacOutput","MDiameters","Mdiameterd","MVolumes",
+             "BFractionalShortening","BCardiacOutput","MDiameters","MDiameterd","MVolumes",
              "MVolumed","MStrokeVolume","MEjectionFraction","MFractionalShortening",
              "MLVMassCor","MCardiacOutput","MVE","MVA","E'","A'","MVE/A","MVE/E'","LCCAPSV","RCCAPSV")
         data4<-data4[,s[s%in%colnames(data4)]]

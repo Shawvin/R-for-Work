@@ -5,8 +5,8 @@ account: shawvin
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1962130
-bundleId: 2894442
+bundleId: 2896572
 url: https://shawvin.shinyapps.io/MI_ECHO_EXTRACTION_2/
-when: 1584543552.17719
+when: 1584589743.57096
 asMultiple: FALSE
 asStatic: FALSE

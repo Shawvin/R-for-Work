@@ -94,7 +94,7 @@ server <- function(input, output) {
         data3[index,"Volume2"]<-temp}
         if (!is_empty(data3))
         {s=c("ID","labels","BHeartRate","BVolumes","BVolumed","BStrokeVolume","BEjectionFraction",
-             "BFractionalShortening","BCardiacOutput","MDiameters","Mdiameterd","MVolumes",
+             "BFractionalShortening","BCardiacOutput","MDiameters","MDiameterd","MVolumes",
              "MVolumed","MStrokeVolume","MEjectionFraction","MFractionalShortening",
              "MLVMassCor","MCardiacOutput","Volume1","Volume2")
         data3<-data3[,s[s%in%colnames(data3)]]
