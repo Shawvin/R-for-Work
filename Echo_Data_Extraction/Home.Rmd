@@ -1,0 +1,31 @@
+---
+title: "Home"
+author: "Shawvin"
+date: "6/23/2020"
+output: html_fragment
+---
+
+
+
+# Echo data extraction 
+![](www/vevo2100.jpg){width=20% height=40% align="right"}
+
+## Overview
+<span style="font-size: 20px">
+This is a web app to automate the ETL process of echo data for further statistical analysis. The raw data was generate from Visualsonic Vevo2100 ultrasound system(as shown on the right). 
+</span>
+
+
+## Raw data
+<span style="font-size: 20px">
+As shown below, the raw data is not [tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
+<center>
+![](www/raw.png){width=30% height=30%}
+</center>
+</span>
+
+
+## Tidy data
+<span style="font-size: 20px">
+The raw csv data can be upload and processed. The final tidy data can be viewed and downloaded.
+</span>

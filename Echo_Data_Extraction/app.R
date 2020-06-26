@@ -1,12 +1,3 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
 library(shiny)
 library(shinydashboard)
 library(tidyverse)
@@ -35,13 +26,16 @@ sidebar <- dashboardSidebar(
 )
 
 body <- dashboardBody(
+    tags$head(tags$style(HTML('
+      .content-wrapper {
+        background-color: #fff;
+      }
+    '))),
     tabItems(
         tabItem(tabName = "home",
                 fluidPage(
-                h1("About the app"),
-                p("The app is to automate the process of ETL(extraction, transforming and loading) on raw echo data.", style = "font-size:20px"),
-                h1("Example")
-                )
+                includeHTML("Home.html"))
+                
         ),
         
         tabItem(tabName = "display1",
@@ -61,7 +55,10 @@ body <- dashboardBody(
 )
 
 ui <- dashboardPage(
-    dashboardHeader(title = "Echo Data Extraction"),
+    dashboardHeader(tags$li(class = "dropdown",
+                            tags$style(".main-header {height: 50px}"),
+                            tags$style(".main-header .logo {height: 50px;}")),
+      title = "Echo Data Extraction"),
     sidebar,
     body
 )

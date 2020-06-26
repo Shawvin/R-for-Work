@@ -1,0 +1,13 @@
+name: Echo_Data_Extraction
+title: Echo_Data_Extraction
+username:
+account: shawvin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2507796
+bundleId: 3320175
+url: https://shawvin.shinyapps.io/Echo_Data_Extraction/
+when: 1593188339.44309
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Home.Rmd|www/echo.png
